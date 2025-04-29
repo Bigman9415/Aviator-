@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #2c3e50;
+    margin: 0;
+}
+
+.game-container {
+    background: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.multiplier-display {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #2ecc71;
+}
+
+#planeCanvas {
+    border: 2px solid #7f8c8d;
+    background: #2c3e50;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled {
+    background: #7f8c8d;
+    cursor: not-allowed;
+}
+
+.results {
+    color: #bdc3c7;
+}
+
